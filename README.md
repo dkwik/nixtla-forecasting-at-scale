@@ -1,5 +1,7 @@
 # Project Summary
 
+![image](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/31f6e0b6-1b9c-43eb-9555-79bbb4a863fd)
+
 
 This projects creates a robust forecast that allows for the creation of hundreds of time-series forecasts, with analysis of performance at different combinations of granularity, time-horizon, and algorithms. 
 
@@ -47,5 +49,10 @@ The result is a robust system that creates a few folders with summarized outputs
  1. A forecast directory contains forecasts that combines forecasted and historical data into various dataframe formats useful for further manipulation or to upload to a cloud store.
  2. A crossvalidation_logs directory containing crossvalidation logs that are unsummarized for detailed crossvalidation results.
  3. A crossvalidation directory containing crossvalidation summaries by algorithm and by time horizon
+
+Here's an example of the cross-validated output at different time horizons:
+
+![image](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/b0321228-af99-46b0-8739-347fa08b928b)
+
  
 This allows us to easily look up crossvalidation results.
