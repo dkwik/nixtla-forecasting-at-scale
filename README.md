@@ -2,7 +2,7 @@
 
 This projects creates a robust forecast that allows for the creation of hundreds of time-series forecasts, with analysis of performance at different combinations of granularity, time-horizon, and algorithms. 
 
-![image](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/31f6e0b6-1b9c-43eb-9555-79bbb4a863fd)
+![forecast](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/31f6e0b6-1b9c-43eb-9555-79bbb4a863fd)
 
 ## Background
 Say we are a book publishing corporation, and we have 434 books written by 110 authors, under 20 publishing compaines, across 7 cities. We want to generate forecasts that are flexible enough that so that we can analyse the forecast at **(1) each of these levels of the hierarchy (book > author > publisher > city)**, across **(2) 1, 3, 6, 9, and 12 months time horizons**, as well as **(3) test 14 different statistical algorithms** to find the best one. 
@@ -51,7 +51,7 @@ The result is a robust system that creates a few folders with summarized outputs
 
 Here's an example of the cross-validated output at different time horizons:
 
-![image](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/b0321228-af99-46b0-8739-347fa08b928b)
+![crossvalidation](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/5e721237-3a82-4467-a5d8-6a7c96a965d0)
 
  
 This allows us to easily look up crossvalidation results.
