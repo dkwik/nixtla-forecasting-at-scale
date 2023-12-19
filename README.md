@@ -1,9 +1,8 @@
 # Project Summary
 
-![image](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/31f6e0b6-1b9c-43eb-9555-79bbb4a863fd)
-
-
 This projects creates a robust forecast that allows for the creation of hundreds of time-series forecasts, with analysis of performance at different combinations of granularity, time-horizon, and algorithms. 
+
+![image](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/31f6e0b6-1b9c-43eb-9555-79bbb4a863fd)
 
 ## Background
 Say we are a book publishing corporation, and we have 434 books written by 110 authors, under 20 publishing compaines, across 7 cities. We want to generate forecasts that are flexible enough that so that we can analyse the forecast at **(1) each of these levels of the hierarchy (book > author > publisher > city)**, across **(2) 1, 3, 6, 9, and 12 months time horizons**, as well as **(3) test 14 different statistical algorithms** to find the best one. 
