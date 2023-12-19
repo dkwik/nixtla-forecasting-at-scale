@@ -49,7 +49,7 @@ The result is a robust system that creates a few folders with summarized outputs
  2. A crossvalidation_logs directory containing crossvalidation logs that are unsummarized for detailed crossvalidation results.
  3. A crossvalidation directory containing crossvalidation summaries by algorithm and by time horizon
 
-Here's an example of the cross-validated output at different time horizons:
+Here's an example of the cross-validated MAPEs at different time horizons:
 
 ![crossvalidation](https://github.com/dkwik/nixtla-forecasting-at-scale/assets/89932747/5e721237-3a82-4467-a5d8-6a7c96a965d0)
 
